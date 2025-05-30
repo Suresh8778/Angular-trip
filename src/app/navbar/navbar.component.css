@@ -1,0 +1,42 @@
+.nav-span{
+    color: #f15d30;
+    font-size: 12px;
+    font-weight: 500;
+}
+.nav-title a{
+    margin: 0;
+    padding: 0;
+}
+.nav-item:active{
+    color: #f15d30;
+}
+
+
+.sub-heading{
+    font-family: "Arizonia", cursive;
+        font-size: 30px;
+    color: #f15d30
+}
+
+
+
+.text-orange {
+  color: #f26422;
+}
+
+.btn-orange {
+  background-color: #f25c27;
+  color: white;
+  border: none;
+}
+
+.btn-orange:hover {
+  background-color: #f15d30;
+}
+.des-box{
+    position: relative;
+    bottom: 50px;
+}
+
+
+

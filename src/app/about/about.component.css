@@ -1,0 +1,23 @@
+.about-img{
+    position: relative;
+    width: 520px;
+    max-height: 600px;
+    bottom: 90px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+}
+.about-head{
+    font-family: "Arizonia", cursive;
+    color: #f15d30;
+}
+@media screen and (max-width:376px){
+    .about-img{
+        width: 300px ;
+    }
+}
+@media screen and (min-width:425px) and (max-width: 768px){
+    .about-img{
+        width: 400px ;
+    }
+}

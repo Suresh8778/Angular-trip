@@ -1,0 +1,11 @@
+.foot-media{
+    display: flex;
+    gap: 10px;
+    color: #f15d30;
+}
+.foot-loc i{
+    color: #f15d30;
+}
+.list-unstyled li{
+    padding: 5px 0px;
+}

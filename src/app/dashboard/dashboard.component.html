@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-2 bg-dark text-white vh-100">
+      <h4 class="p-2 my-3 text-danger fw-bold">TRIP AGENCY</h4>
+      <hr>
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a routerLink="/dashboard" class="nav-link text-white">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/dashboard/users" class="nav-link text-white">Users</a>
+        </li>
+        <li class="nav-item">
+       <a routerLink="/dashboard/bookings" class="nav-link text-white">Booking</a>
+
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main content -->
+    <div class="col-md-10 mt-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

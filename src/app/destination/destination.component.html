@@ -1,0 +1,27 @@
+<div class="container my-5" id="des">
+    <h4 class="des-head"><i>Destination</i></h4>
+  <h2 class="text-center fw-bold mb-5">Trip Destination</h2>
+  <div class="row g-4 mx-md-px-53 ">
+    <div class="col-md-4" *ngFor="let tour of tours" data-aos="fade-up">
+      <div class="card shadow-sm">
+        <div class="position-relative">
+          <img [src]="tour.image" class="card-img-top" alt="Tour image" height="300px" />
+          <span class="position-absolute top-0 start-0 text-white px-3 py-1 fw-semibold" style="background: #f15d30;">
+            ₹{{ tour.price }}/person
+          </span>
+        </div>
+        </div>
+         <div class="des-body mx-auto shadow">
+          <p class="text-danger fw-semibold mb-1">{{ tour.duration }} DAYS TOUR</p>
+          <h5 class="card-title">{{ tour.title }}</h5>
+          <p class="text-muted mb-3 py-1">
+            <i class="fas fa-map-marker-alt me-1"></i> {{ tour.location }}
+          </p>
+          <div class="d-flex justify-content-between text-muted">
+            <span><i class="fas fa-map me-1"></i>{{ tour.type }}</span>
+             <button class="btn text-white" style="background-color: #f15d30;" (click)="bookTour(tour)">Book</button>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.des-body{
+    max-width: 280px;
+    position: relative;
+    bottom: 50px;
+    background-color: white;
+    padding: 10px;
+}
+.des-head{
+    font-family: "Arizonia", cursive;
+    color: #f15d30;
+    text-align: center;
+}

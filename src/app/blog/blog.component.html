@@ -1,0 +1,25 @@
+<div class="container my-5" id="blog">
+  <h4 class="des-head"><i>Our Blogs</i></h4>
+  <h2 class="text-center fw-bold mb-5">Recent Post</h2>
+  <div class="row g-4 mx-md-3">
+    <div class="col-md-4" *ngFor="let blog of blogs" data-aos="fade-up">
+      <div class="card shadow-sm">
+        <div class="position-relative">
+          <img [src]="blog.image" class="card-img-top" alt="Tour image" height="300px" />
+          <div class="d-flex ">
+            <p class="position-absolute top-0 start-0 text-white px-3 py-1 fw-semibold" style="background: #f15d30;">
+              {{blog.date}}
+              <span>{{blog.month}}</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="des-body mx-auto shadow mb-5">
+        <h5 class="card-title">{{ blog.title }}</h5>
+        <div class="my-3 ">
+          <button class="btn text-white p-2" style="background-color: #f15d30;" (click)="readMore()">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
